@@ -5,6 +5,7 @@ import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Link } from "react-router-dom";
+import Comments from "../comments/Comments";
 
 const Post = ({ post }) => {
   return (
@@ -43,6 +44,7 @@ const Post = ({ post }) => {
             Share
           </div>
         </div>
+        <Comments />
       </div>
     </div>
   );
